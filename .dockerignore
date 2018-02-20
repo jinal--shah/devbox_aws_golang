@@ -1,0 +1,6 @@
+build.sh
+Dockerfile.tmpl
+**/*.pem
+**/.ssh
+**/*.swp
+**/*.tmpl

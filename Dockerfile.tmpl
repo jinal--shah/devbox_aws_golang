@@ -1,0 +1,17 @@
+FROM jinal--shah/devbox_aws_coreos:candidate
+
+LABEL \
+      name="jinal--shah/devbox_aws_golang" \
+      vendor="sortuniq" \
+      description=" \
+- FROM https://github.com/jinal--shah/devbox_aws_coreos\n\
+- adds golang (version specified in ./build.sh)
+"
+
+COPY assets /assets
+
+USER root
+
+# INSERT-HERE
+
+USER core
